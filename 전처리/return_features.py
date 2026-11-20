@@ -46,7 +46,7 @@ def read_month(stream, month):
     return pd.concat(parts, ignore_index=True)
 
 
-def aggregate_month(records, station_ids):
+def selected_return_events(records, station_ids):
     # 같은 자전거·대여시각을 먼저 서울 전체에서 대조한 뒤 목적지를 거른다.
     duplicate = records.key.duplicated(keep=False)
     repeated = records.loc[duplicate & records.valid_time].copy()
@@ -55,8 +55,13 @@ def aggregate_month(records, station_ids):
     if len(repeated):
         repeated = repeated.loc[repeated.end.eq(repeated.groupby("key").end.transform("max"))]
         repeated = repeated.loc[repeated.groupby("key").dest.transform("nunique").eq(1)].drop_duplicates("key")
-    singles = records.loc[~duplicate & records.valid_time & records.dest.isin(station_ids)]
-    hits = pd.concat([singles, repeated.loc[repeated.dest.isin(station_ids)]], ignore_index=True)
+    columns = ["origin", "dest", "end"]
+    singles = records.loc[~duplicate & records.valid_time & records.dest.isin(station_ids), columns]
+    return pd.concat([singles, repeated.loc[repeated.dest.isin(station_ids), columns]], ignore_index=True)
+
+
+def aggregate_month(records, station_ids):
+    hits = selected_return_events(records, station_ids)
     hours = hits.end.to_numpy() // 3600
     inside = (hours >= 0) & (hours < len(HOURS))
     indices = station_ids.get_indexer(hits.dest.to_numpy()[inside])
