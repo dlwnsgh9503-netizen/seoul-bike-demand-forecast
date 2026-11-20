@@ -27,6 +27,6 @@
 - [월별 대여이력에서 반납 입력을 만드는 코드](전처리/return_features.py)
 - [분기별 MAE·RMSE와 추가 전후 차이](모델/3fold%20반납%20추가%20성능.csv)
 
-GitHub에서 노트북을 열면 저장된 실행 결과를 볼 수 있다. 로컬에서 재학습하려면 `전처리/station_hour.csv.gz`와 `전처리/대여소별_직전_반납.csv.gz`가 필요하다. 첫 파일의 생성 절차는 [데이터 설명](전처리/데이터%20설명.md)에 있다. 두 번째 파일은 유효 대여 연도별 ZIP과 월별 제외 건수표가 준비된 상태에서 노트북을 실행하면 생성된다. Python 3.11 환경에서 pandas, NumPy, PyArrow, PyTorch, Matplotlib, Jupyter를 사용했다.
+[분석용 데이터 폴더](분석용%20데이터/)에 모델 학습용 시간별 대여량·기상표, 직전 반납량, 서울 전체 이용량·기상 CSV가 들어 있다. 저장소를 내려받으면 연도별 대여이력 ZIP 없이 노트북을 실행할 수 있다. Python 3.11에서 pandas, NumPy, PyArrow, PyTorch, Matplotlib, Jupyter를 사용했다. [파일별 설명과 원본 출처](분석용%20데이터/README.md)
 
 대여이력과 대여소 정보는 서울 열린데이터광장, 시간별 기상은 서울 자전거 공유 데이터셋을 사용했다. [서울시 공공자전거 대여이력](https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do) · [기상 데이터](https://www.kaggle.com/datasets/lnoahl/seoul-bike-sharing-dataset)
