@@ -1,0 +1,958 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 221,
+        "대여소명": "여의도초교 앞",
+        "자치구": "영등포구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "예",
+        "marker-color": "#7b398f",
+        "marker-size": "large",
+        "marker-symbol": "star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93778992,
+          37.52267456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 252,
+        "대여소명": "보라매역4번출구",
+        "자치구": "영등포구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91994476,
+          37.49982834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 289,
+        "대여소명": "대림3동사거리",
+        "자치구": "영등포구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "예",
+        "marker-color": "#bc561b",
+        "marker-size": "large",
+        "marker-symbol": "star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89800262,
+          37.49980927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 399,
+        "대여소명": "서울역 센트럴 자이아파트",
+        "자치구": "중구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96540833,
+          37.55410767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 435,
+        "대여소명": "SK 남산빌딩",
+        "자치구": "중구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "예",
+        "marker-color": "#157da4",
+        "marker-size": "large",
+        "marker-symbol": "star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97561646,
+          37.55686188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 484,
+        "대여소명": "도동삼거리",
+        "자치구": "중구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97742462,
+          37.55614853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 521,
+        "대여소명": "왕십리역 11번 출구 앞",
+        "자치구": "성동구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03491974,
+          37.56144714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 669,
+        "대여소명": "청계한신휴플러스앞 삼거리",
+        "자치구": "동대문구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04460907,
+          37.57214737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 723,
+        "대여소명": "SBS방송국",
+        "자치구": "양천구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87274933,
+          37.52916336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 793,
+        "대여소명": "목동5단지아파트 534동",
+        "자치구": "양천구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87789917,
+          37.53302002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 941,
+        "대여소명": "은평뉴타운 도서관",
+        "자치구": "은평구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93330383,
+          37.63722229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1036,
+        "대여소명": "고덕동 주양쇼핑",
+        "자치구": "강동구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.15331268,
+          37.55199051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1049,
+        "대여소명": "강일리버파크 10단지",
+        "자치구": "강동구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.18026733,
+          37.561203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1166,
+        "대여소명": "강서구립등빛도서관",
+        "자치구": "강서구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.84246063,
+          37.56256866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1173,
+        "대여소명": "강서구청사거리(SH타워)",
+        "자치구": "강서구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85307312,
+          37.55673599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1188,
+        "대여소명": "롯데중앙연구소",
+        "자치구": "강서구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.82833862,
+          37.57138062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1352,
+        "대여소명": "e 편한세상 보문아파트 내",
+        "자치구": "성북구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01709747,
+          37.58388138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1414,
+        "대여소명": "사가정역 2번출구",
+        "자치구": "중랑구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08824158,
+          37.58098984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1444,
+        "대여소명": "면목4치안센터",
+        "자치구": "중랑구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08054352,
+          37.57402802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1662,
+        "대여소명": "노원역7번출구",
+        "자치구": "노원구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05921173,
+          37.65421677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1732,
+        "대여소명": "방학역사거리",
+        "자치구": "도봉구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04299927,
+          37.66759872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1761,
+        "대여소명": "방학중학교 앞",
+        "자치구": "도봉구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03108978,
+          37.66562271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1825,
+        "대여소명": "한신아파트 앞 육교 아래",
+        "자치구": "금천구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89105225,
+          37.45470047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1834,
+        "대여소명": "월드메르디앙 벤처센터 2차",
+        "자치구": "금천구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87904358,
+          37.47908401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 1912,
+        "대여소명": "한신휴아파트 앞",
+        "자치구": "구로구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89066315,
+          37.48880005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 2203,
+        "대여소명": "청계산입구역 2번출구",
+        "자치구": "서초구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05501556,
+          37.44765854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 2259,
+        "대여소명": "잠원역 3번-4번 출구사이",
+        "자치구": "서초구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01117706,
+          37.51298904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 2323,
+        "대여소명": "주식회사 오뚜기 정문 앞",
+        "자치구": "강남구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06720734,
+          37.50221252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 2375,
+        "대여소명": "수서역 1번출구 앞",
+        "자치구": "강남구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10099792,
+          37.48735046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 2404,
+        "대여소명": "대모산입구역 4번 출구 앞",
+        "자치구": "강남구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07315826,
+          37.49180984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 2422,
+        "대여소명": "수서동 성당 맞은편",
+        "자치구": "강남구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09484863,
+          37.48416901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 2601,
+        "대여소명": "석촌호수 아뜰리에",
+        "자치구": "송파구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09883118,
+          37.5067482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 2725,
+        "대여소명": "서울식물원 식물문화센터",
+        "자치구": "강서구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.83563232,
+          37.56883621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 3401,
+        "대여소명": "창신두산아파트",
+        "자치구": "종로구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0139389,
+          37.57376099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 3422,
+        "대여소명": "성균관대 정문",
+        "자치구": "종로구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99713135,
+          37.58479691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 3430,
+        "대여소명": "구기치안센터 앞",
+        "자치구": "종로구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9566803,
+          37.60950089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 3586,
+        "대여소명": "군자역 비채온 오피스텔",
+        "자치구": "광진구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07727051,
+          37.55771255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 3816,
+        "대여소명": "관악 GSfresh",
+        "자치구": "관악구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94941711,
+          37.47909164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 3819,
+        "대여소명": "서울대벤처타운역",
+        "자치구": "관악구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93390656,
+          37.4722023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 3853,
+        "대여소명": "어린이대공원역 2번출구",
+        "자치구": "광진구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07470703,
+          37.54764938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4029,
+        "대여소명": "청소년수련관 후문",
+        "자치구": "노원구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06041718,
+          37.6396637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4035,
+        "대여소명": "휴플러스 수락한신아파트 101동 앞",
+        "자치구": "노원구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05947113,
+          37.674366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4362,
+        "대여소명": "행당중학교 후문",
+        "자치구": "성동구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04154968,
+          37.5540123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4472,
+        "대여소명": "송파파크데일 1단지 115동 건너편",
+        "자치구": "송파구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.15966797,
+          37.49763107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4567,
+        "대여소명": "한림대학교 강남성심병원 신관",
+        "자치구": "영등포구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90802002,
+          37.49128342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4663,
+        "대여소명": "불광역3,6호선 버스정류장(동명여고 방면)",
+        "자치구": "은평구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92786407,
+          37.61326218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4766,
+        "대여소명": "서소문성지역사박물관",
+        "자치구": "중구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96878052,
+          37.56024551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4798,
+        "대여소명": "황학동롯데캐슬",
+        "자치구": "중구",
+        "수요 등급": "고수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#7b398f",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02204132,
+          37.57162094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4838,
+        "대여소명": "동원사거리 행복오피스텔 앞",
+        "자치구": "중랑구",
+        "수요 등급": "저수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#157da4",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0941925,
+          37.58973694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "대여소 번호": 4852,
+        "대여소명": "서울복합물류 게이트 1",
+        "자치구": "송파구",
+        "수요 등급": "중수요",
+        "샘플 CSV 포함": "아니오",
+        "marker-color": "#bc561b",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.12310028,
+          37.47600174
+        ]
+      }
+    }
+  ]
+}
