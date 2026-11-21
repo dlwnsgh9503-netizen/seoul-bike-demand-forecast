@@ -12,12 +12,14 @@ from return_features import HOURS, ROOT, read_month, selected_return_events
 OUT = ROOT / "전처리" / "1021개 군집 시간별 반납.npz"
 
 
-def build_cluster_returns():
+def build_cluster_returns(group=None, output=OUT):
     inputs = ROOT / "분석용 데이터"
-    mapping = pd.read_csv(ROOT / "따릉이 대여소 비교/서울 전체 직선거리 500m 군집 배정.csv")
-    group = mapping.loc[mapping["기준월"] == "2024-12"].set_index("대여소번호")["완전연결 군집번호"].sort_index()
+    if group is None:
+        mapping = pd.read_csv(ROOT / "따릉이 대여소 비교/서울 전체 직선거리 500m 군집 배정.csv")
+        group = mapping.loc[mapping["기준월"] == "2024-12"].set_index("대여소번호")["완전연결 군집번호"].sort_index()
+    group = group.sort_index()
     ids = pd.Index(sorted(group.unique()))
-    assert group.index.is_unique and len(group) == 2766 and len(ids) == 1021
+    assert group.index.is_unique and len(group) == 2766 and group.notna().all()
     expected = pd.read_csv(inputs / "월별 제외 건수.csv").set_index("월")["분석용 대여 건수"]
     sample = pd.Index(pd.read_csv(ROOT / "전처리/선정 대여소.csv").station_id).intersection(group.index)
     audit = np.zeros((len(HOURS), len(sample)), dtype=np.int32)
@@ -50,12 +52,12 @@ def build_cluster_returns():
     reference = pd.read_csv(inputs / "대여소별_직전_반납.csv.gz", parse_dates=["target_time"])
     prev_hour = reference.pivot(index="target_time", columns="station_id", values="returns_prev_1h")
     np.testing.assert_array_equal(audit[:-1], prev_hour.loc[HOURS[1:], sample].to_numpy())
-    with NamedTemporaryFile(dir=OUT.parent, suffix=".npz", delete=False) as temp:
+    with NamedTemporaryFile(dir=output.parent, suffix=".npz", delete=False) as temp:
         path = Path(temp.name)
     try:
         np.savez_compressed(path, counts=counts, ids=ids.to_numpy(), station_ids=group.index.to_numpy(),
                             station_groups=group.to_numpy())
-        path.replace(OUT)
+        path.replace(output)
     finally:
         path.unlink(missing_ok=True)
     print(f"반납 {assigned:,}건, 기존 표본 {len(sample)}개소 시간별 집계 대조 완료", flush=True)
